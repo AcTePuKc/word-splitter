@@ -25,7 +25,7 @@ A simple Python GUI application built with `tkinter` for splitting text files by
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/text-word-splitter.git
+   git clone https://github.com/actepukc/text-word-splitter.git
    cd text-word-splitter
    ```
 
