@@ -1,7 +1,7 @@
 
 # Text/Word Splitter
 
-A simple Python GUI application built with `tkinter` for splitting text files by lines, words, or characters. The app supports multiple languages (English, Spanish, and Bulgarian) and allows users to load files, split them, and save the results.
+A simple Python GUI application built with `tkinter` for splitting text files by lines, words, or characters. The app supports multiple languages (English, Spanish, Bulgarian, Russian and Chinese) and allows users to load files, split them, and save the results.
 
 ## Features
 
@@ -10,9 +10,9 @@ A simple Python GUI application built with `tkinter` for splitting text files by
   - Words
   - Characters
 - Split text files in half
-- Choose from multiple file naming conventions for output files
+- Choose from multiple file naming conventions for output files by holding Ctrl
 - Supports multiple file formats including `.txt`, `.csv`, `.md`, `.json`, `.log`, `.xml`, `.yaml`, and more
-- Multilingual support (English, Spanish, Bulgarian)
+- Multilingual support (English, Spanish, Bulgarian, Russian, Chinese (Simplified))
 - Simple graphical interface (using `tkinter`)
 
 ## Requirements
@@ -29,13 +29,9 @@ A simple Python GUI application built with `tkinter` for splitting text files by
    cd text-word-splitter
    ```
 
-2. **Install the required dependencies:**
-   While the app relies on standard Python libraries, ensure your environment has everything you need:
-   ```bash
-   pip install -r requirements.txt  # If you add any dependencies to the project
-   ```
 
-3. **Run the app:**
+
+2. **Run the app:**
    Simply run the `word-splitter.py` file:
    ```bash
    python word-splitter.py
@@ -106,4 +102,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 =======
 # word-splitter
 App to split almost any document/text to either lines/characters/words or half-words
->>>>>>> 4e53cac9c4ad544699704d39c2a9f1f5dc6a6a73
