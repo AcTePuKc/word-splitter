@@ -1,0 +1,24 @@
+# Ignore all .txt files
+*.txt
+
+# Ignore config.json files
+config.json
+output/config.json
+
+# Ignore all word-splitter test files except the original
+word-splitter-*.py
+!word-splitter.py
+
+# Ignore icon files except the proper one
+icon*.jpeg
+icon*.webp
+icon*.ico
+!icon.ico
+
+# Ignore output folder for now
+output/
+
+# Ignore virtual environment and Python cache files
+venv/
+__pycache__/
+*.py[cod]
