@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Text/Word Splitter
 
